@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:weightSum="0"/>
+
+    <ImageView
+        android:id="@+id/addPostImageView"
+        android:layout_width="288dp"
+        android:layout_height="284dp"
+        app:srcCompat="@drawable/selectimage" />
+
+
+    <EditText
+        android:id="@+id/editAddText"
+        android:layout_width="288dp"
+        android:layout_height="248dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName" />
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Add post"
+        android:textSize="15dp"
+        android:background="#CB2229"
+        app:backgroundTint="#CB2229"
+        android:textAllCaps="false"/>
+
+
+
+</LinearLayout>

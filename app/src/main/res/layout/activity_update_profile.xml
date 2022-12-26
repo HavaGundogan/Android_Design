@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="127dp"
+        android:layout_height="113dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/ic_baseline_person_outline_24" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit profile"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/updateUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:textColorHint="#958F8F"
+        android:textColor="@color/black"
+        android:maxLines="75"/>
+    <EditText
+        android:id="@+id/updatefullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:hint="Full Name"
+        android:inputType="textLongMessage"
+        android:maxLines="75"
+        android:textColor="@color/black"
+        android:textColorHint="#958F8F" />
+    <EditText
+        android:id="@+id/updateCityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:hint="City"
+        android:inputType="textLongMessage"
+        android:maxLines="75"
+        android:textColor="@color/black"
+        android:textColorHint="#958F8F" />
+
+    <EditText
+        android:id="@+id/updateDiseaseName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:hint="Disease Name"
+        android:inputType="textLongMessage"
+        android:maxLines="75"
+        android:textColor="@color/black"
+        android:textColorHint="#958F8F" />
+
+
+    <Button
+        android:id="@+id/resetSendLogin"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="UPDATE"
+        android:textSize="15dp"
+        android:background="#CB2229"
+        app:backgroundTint="#CB2229"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:id="@+id/backToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Login"
+        android:textAllCaps="false"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="#CB2229"
+        app:backgroundTint="@color/white"
+        android:background="@android:color/transparent"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:weightSum="2"/>
+</LinearLayout>

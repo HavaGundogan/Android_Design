@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "852464036346",
+    "project_id": "radicom-8db59",
+    "storage_bucket": "radicom-8db59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852464036346:android:9e10941ac8c356a3a61c43",
+        "android_client_info": {
+          "package_name": "com.gundogan.radicom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "852464036346-hlbgocjmigcibb7cghf64ljp8a15a9pp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgRuDQgsTsl8GI0bYNi5ylS5zUuW0jggI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "852464036346-hlbgocjmigcibb7cghf64ljp8a15a9pp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
