@@ -10,23 +10,14 @@
 
     <ImageView
         android:id="@+id/profileImage"
-        android:layout_width="127dp"
-        android:layout_height="113dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"
         android:background="@drawable/ic_baseline_person_outline_24" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Edit profile"
-        android:textStyle="bold"
-        android:textSize="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"/>
-
     <EditText
-        android:id="@+id/updatefullName"
+        android:id="@+id/profilefullName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -37,6 +28,20 @@
         android:maxLines="75"
         android:textColor="@color/black"
         android:textColorHint="#958F8F" />
+
+    <EditText
+        android:id="@+id/profileEmailView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:ems="15"
+        android:hint="E-mail"
+        android:inputType="textLongMessage"
+        android:maxLines="75"
+        android:textColor="@color/black"
+        android:textColorHint="#958F8F" />
+
     <EditText
         android:id="@+id/updateCityName"
         android:layout_width="wrap_content"
@@ -51,7 +56,7 @@
         android:textColorHint="#958F8F" />
 
     <EditText
-        android:id="@+id/updateDiseaseName"
+        android:id="@+id/profileDiseaseName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -65,23 +70,10 @@
 
 
     <Button
-        android:id="@+id/resetSendLogin"
-        android:layout_width="320dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="20dp"
-        android:text="UPDATE"
-        android:textSize="15dp"
-        android:background="#CB2229"
-        app:backgroundTint="#CB2229"
-        android:textAllCaps="false" />
-
-
-    <Button
         android:id="@+id/backToLogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Back To Profile"
+        android:text="Back To Home"
         android:textAllCaps="false"
         android:layout_marginTop="20dp"
         android:layout_gravity="center"

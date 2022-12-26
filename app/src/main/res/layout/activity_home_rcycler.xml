@@ -29,13 +29,17 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/story_UserName"
+                android:id="@+id/story_FullName"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="3dp"
-                android:text="E-mail"
+                android:text="Full Name"
                 android:textColor="@color/black"
-                android:textSize="17dp" />
+                android:textSize="17dp"
+                android:layout_marginTop="10dp"
+                android:textAlignment="center"
+                />
+
 
 
         </LinearLayout>
@@ -57,16 +61,18 @@
         <ImageView
             android:id="@+id/addPostImageView"
             android:layout_width="match_parent"
-            android:layout_height="211dp"
+            android:layout_height="300dp"
             app:srcCompat="@drawable/selectimage" />
 
         <TextView
             android:id="@+id/editAddText"
-            android:layout_width="403dp"
-            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:ems="10"
             android:hint="Description"
-            android:inputType="textPersonName" />
+            android:inputType="textPersonName"
+            android:textSize="16sp"
+            />
 
 
 

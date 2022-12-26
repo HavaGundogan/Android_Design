@@ -87,18 +87,7 @@
         android:textColorHint="#958F8F"
         android:textColor="@color/black"
         android:maxLines="75"/>
-    <EditText
-        android:id="@+id/userName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="15"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:inputType="textPersonName"
-        android:hint="Username"
-        android:textColorHint="#958F8F"
-        android:textColor="@color/black"
-        android:maxLines="75"/>
+
     <EditText
         android:id="@+id/userPassword"
         android:layout_width="wrap_content"
